@@ -4,8 +4,8 @@ import TeamImg2 from "~/assets/img/team2.avif";
 import TeamImg3 from "~/assets/img/team3.avif";
 
 useSeoMeta({
-  title: 'Nuxtship-about',
-  ogTitle: 'Nuxtship-about',
+  title: 'NuxtTemplate-about',
+  ogTitle: 'NuxtTemplate-about',
   description: '关于我们(about us)',
   ogDescription: '关于我们(about us)',
 })
@@ -53,9 +53,9 @@ const { locale } = useI18n()
   <div class="pt-10">
 
     <Head>
-      <Title>Nuxtship-about</Title>
+      <Title>NuxtTemplate-about</Title>
       <Meta name="description"
-        content="使用 Nuxt 完成的营销网站,Nuxtship 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。">
+        content="使用 Nuxt 完成的营销网站模板,NuxtTemplate 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。">
       </Meta>
     </Head>
     <top zhtitle="关于" title="About" zhdesc="我们是一个充满激情的小团队。" desc="We are a small passionate team."></top>

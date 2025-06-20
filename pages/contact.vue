@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useSeoMeta({
-    title: 'Nuxtship-contact',
-    ogTitle: 'Nuxtship-contact',
+    title: 'NuxtTemplate-contact',
+    ogTitle: 'NuxtTemplate-contact',
     description: '联系我们(contact us)',
     ogDescription: '联系我们(contact us)',
 })
@@ -11,9 +11,9 @@ useSeoMeta({
     <div class="pt-10">
 
         <Head>
-            <Title>Nuxtship-contact</Title>
+            <Title>NuxtTemplate-contact</Title>
             <Meta name="description"
-                content="使用 Nuxt 完成的营销网站,Nuxtship 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。">
+                content="使用 Nuxt 完成的营销网站模板,NuxtTemplate 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。">
             </Meta>
         </Head>
         <top zhtitle="接触" title="Contact" zhdesc="我来帮忙。" desc="I am here to help."></top>

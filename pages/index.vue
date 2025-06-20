@@ -1,9 +1,9 @@
 <script lang="ts" setup>
 useSeoMeta({
-  title: 'Nuxtship-features',
-  ogTitle: 'Nuxtship-features',
-  description: '使用 Nuxt 完成的营销网站,Nuxtship 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。',
-  ogDescription: '使用 Nuxt 完成的营销网站,Nuxtship 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。',
+  title: 'NuxtTemplate-features',
+  ogTitle: 'NuxtTemplate-features',
+  description: '使用 Nuxt 完成的营销网站模板,NuxtTemplate 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。',
+  ogDescription: '使用 Nuxt 完成的营销网站模板,NuxtTemplate 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。',
 })
 interface Home {
   title: string
@@ -24,9 +24,9 @@ const icons = computed(() => {
   <div class="min-h-screen bg-color">
 
     <Head>
-      <Title>Nuxtship</Title>
+      <Title>NuxtTemplate</Title>
       <Meta name="description"
-        content="使用 Nuxt 完成的营销网站,Nuxtship 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。">
+        content="使用 Nuxt 完成的营销网站模板,NuxtTemplate 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。">
       </Meta>
     </Head>
     <div class="lg:flex block lg:gap-x-10">

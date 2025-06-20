@@ -50,7 +50,7 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {
-      title: "Nuxtship营销网站,DeepSeek,入门模板",
+      title: "NuxtTemplate营销网站",
       meta: [
         {
           name: "viewport",
@@ -59,12 +59,12 @@ export default defineNuxtConfig({
         },
         {
           name: "keywords",
-          content: "Nuxtship营销网站,DeepSeek,入门模板",
+          content: "NuxtTemplate营销网站",
         },
         {
           name: "description",
           content:
-            "使用 Nuxt 并接入DeepSeek 完成的营销网站,Nuxtship 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。",
+            "NuxtTemplate 是适用于海外营销网站的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。",
         },
       ],
       link: [{ rel: "icon", type: "image/svg+xml", href: "/skunk.svg" }],

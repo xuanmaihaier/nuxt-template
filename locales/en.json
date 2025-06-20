@@ -1,7 +1,7 @@
 {
     "header": {
         "frame": "Nuxt",
-        "projectName": "ship",
+        "projectName": "Template",
         "Features": "Features",
         "Pricing": "Pricing",
         "About": "About",
@@ -9,7 +9,7 @@
     },
     "home": {
         "webtype": "Marketing website done with Nuxt",
-        "webdesc": "Nuxtship is a starter template for startups, marketing websites & landing pages. Built with Nuxt & TailwindCSS. You can quickly create any website with this starter.",
+        "webdesc": "NuxtTemplate is a starter template for startups, marketing websites & landing pages. Built with Nuxt & TailwindCSS. You can quickly create any website with this starter.",
         "webfn": "Everything you need to start a website",
         "webfndesc": "Nuxt comes batteries included. It takes the best parts of state-of-the-art tools and adds its own innovations.",
         "webitemtitle": "{title}",
@@ -34,10 +34,10 @@
         "teamtitle": "{title}"
     },
     "contact": {
-        "creator": "Contact Nuxtship Creator",
+        "creator": "Contact NuxtTemplate Creator",
         "tip": "Have something to say? I am here to help. Fill up the form or send email.",
-        "one": "1010 Vienna, Austria",
-        "emial": "jakobaichmayr{'@'}gmail.com",
+        "one": "Hangzhou, Zhejiang",
+        "emial": "youngdocui{'@'}gmail.com",
         "form": {
             "fullname": "Full Name",
             "email": "Email Address",
@@ -54,6 +54,6 @@
     },
     "footer": {
         "btotitle": "{copy}",
-        "btosub": "Made by Gr33nW33n with attribution to Web3Templates"
+        "btosub": "Made by YoungDo with attribution to Web3Templates"
     }
 }

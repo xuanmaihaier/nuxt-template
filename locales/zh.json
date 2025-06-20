@@ -1,15 +1,15 @@
 {
     "header": {
         "frame": "Nuxt",
-        "projectName": "ship",
+        "projectName": "Template",
         "Features": "特征",
         "Pricing": "价格",
         "About": "关于",
         "Contact": "接触"
     },
     "home": {
-        "webtype": "使用 Nuxt 完成的营销网站",
-        "webdesc": "Nuxtship 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。",
+        "webtype": "使用 Nuxt 完成的营销网站模板",
+        "webdesc": "NuxtTemplate 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。",
         "webfn": "建立网站所需的一切",
         "webfndesc": "Nuxt 附带电池。它采用了最先进工具的最佳部分并添加了自己的创新。",
         "webitemtitle": "{title}",
@@ -34,10 +34,10 @@
         "teamtitle": "{title}"
     },
     "contact": {
-        "creator": "联系 Nuxtship 创建者",
+        "creator": "联系 NuxtTemplate 创建者",
         "tip": "有话要说吗？我很乐意为您提供帮助。填写表格或发送电子邮件。",
-        "one": "1010 维也纳, 奥地利",
-        "emial": "jakobaichmayr{'@'}gmail.com",
+        "one": "杭州, 浙江",
+        "emial": "youngdocui{'@'}gmail.com",
         "form": {
             "fullname": "姓名",
             "email": "电子邮件",
@@ -54,6 +54,6 @@
     },
     "footer": {
         "btotitle": "{copy}",
-        "btosub": "由 Gr33nW33n 制作，版权归 Web3Templates 所有"
+        "btosub": "由 YoungDo 制作，版权归 Web3Templates 所有"
     }
 }

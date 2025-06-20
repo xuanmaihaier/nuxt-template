@@ -1,7 +1,7 @@
 <script setup lang="ts">
 type Theme = 'dark' | 'light'
 const theme = ref<Theme>('light')
-const key = 'nuxtship-theme'
+const key = 'nuxttemplate-theme'
 const changeTheme = (type: Theme) => {
     document.documentElement.setAttribute('class', type)
     theme.value = type
@@ -30,7 +30,7 @@ watchEffect(() => {
 })
 
 const openUrl = () => {
-    window.location.href = 'https://github.com/undefined-zzk/nuxtship-template-ai'
+    window.location.href = 'https://github.com/xuanmaihaier/nuxt-template'
 }
 
 </script>

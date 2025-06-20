@@ -1,9 +1,9 @@
 <!--
  * @Author: undefined 2143511430@qq.com
  * @Date: 2025-04-13 18:38:24
- * @LastEditors: undefined 2143511430@qq.com
- * @LastEditTime: 2025-04-13 19:06:10
- * @FilePath: \nuxtship-template-ai\components\CssLoading.client.vue
+ * @LastEditors: cui yao cuiy@ipharmacare.net
+ * @LastEditTime: 2025-06-20 11:03:08
+ * @FilePath: \nuxt-template\components\CssLoading.client.vue
  * @Description: 
  * 
  * Copyright (c) 2025 by ${git_name_email}, All Rights Reserved. 

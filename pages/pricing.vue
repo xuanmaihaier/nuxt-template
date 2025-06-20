@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useSeoMeta({
-    title: 'Nuxtship-pricing',
-    ogTitle: 'Nuxtship-pricing',
+    title: 'NuxtTemplate-pricing',
+    ogTitle: 'NuxtTemplate-pricing',
     description: 'price',
     ogDescription: 'price',
 })
@@ -17,9 +17,9 @@ const localePath = useLocalePath()
     <div class="pt-10">
 
         <Head>
-            <Title>Nuxtship-Pricing</Title>
+            <Title>NuxtTemplate-Pricing</Title>
             <Meta name="description"
-                content="使用 Nuxt 完成的营销网站,Nuxtship 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。">
+                content="使用 Nuxt 完成的营销网站模板,NuxtTemplate 是适用于初创公司、营销网站和登录页面的入门模板。使用 Nuxt 和 TailwindCSS 构建。您可以使用此入门模板快速创建任何网站。">
             </Meta>
         </Head>
         <top title="Pricing" zhtitle="价格" zhdesc="定价简单且可预测。没有意外。" desc="Simple & Predictable pricing. No Surprises.">

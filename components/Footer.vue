@@ -3,8 +3,8 @@ const year = computed(() => {
     return (new Date()).getFullYear()
 })
 const {locale}=useI18n()
-const encopy=`Copyright © ${year.value} Nuxtship. All rights reserved.`
-const zhcopy=`版权所有 © ${year.value} Nuxtship。保留所有权利。`
+const encopy=`Copyright © ${year.value} NuxtTemplate. All rights reserved.`
+const zhcopy=`版权所有 © ${year.value} NuxtTemplate。保留所有权利。`
 </script>
 
 <template>

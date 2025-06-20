@@ -47,12 +47,6 @@ watch(isOnline, () => {
                     class="block text-color h-10 leading-10 text-gray-500 hover:text-gray-900 dark:hover:text-slate-500">{{
                         $t(`header.${page.name}`) }}</span>
             </nuxt-link>
-            <!-- <div class="lg:hidden flex gap-3">
-                <div class="flex-1 cursor-pointer rounded-md h-10 leading-10 text-black text-center bg-slate-300">{{
-                    $t('btn.login') }}</div>
-                <div class="flex-1 cursor-pointer rounded-md h-10 leading-10 text-white text-center hover:bg-slate-700">
-                    {{ $t('btn.signup') }}</div>
-            </div> -->
         </div>
         <div class="flex lg:hidden lg:items-center lg:gap-6 flex-col lg:flex-row" v-if="open">
             <nuxt-link :to="localePath(page.path)" v-for="(page, index) in menuItems" :key="index">
@@ -60,25 +54,11 @@ watch(isOnline, () => {
                     class="block text-color h-10 leading-10 text-gray-500 hover:text-gray-900 dark:hover:text-slate-500">{{
                         $t(`header.${page.name}`) }}</span>
             </nuxt-link>
-            <!-- <div class="lg:hidden flex gap-3">
-                <div
-                    class="flex-1 cursor-pointer rounded-md h-10 leading-10 text-color text-black text-center bg-slate-300">
-                    {{
-                        $t('btn.login') }}</div>
-                <div
-                    class="flex-1 cursor-pointer rounded-md h-10 leading-10 text-color text-white text-center bg-black hover:bg-slate-700">
-                    {{ $t('btn.signup') }}</div>
-            </div> -->
         </div>
         <div class="lg:flex items-center gap-2 hidden">
             <ThemeBtn />
-            <!-- <div id="language" class="cursor-pointer text-color" @click="changeLang">{{ locale == 'en' ? '中文' :
+            <div id="language" class="cursor-pointer text-color" @click="changeLang">{{ locale == 'en' ? '中文' :
                 'English' }}</div>
-            <div class="text-color">{{ $t('btn.login') }}</div>
-            <div
-                class="bg-btn cursor-pointer rounded-md h-10 leading-10 px-5 bg-text-color hover:bg-slate-700 hover:text-white">
-                {{ $t('btn.signup') }}
-            </div> -->
         </div>
     </div>
 </template>
